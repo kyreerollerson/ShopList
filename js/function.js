@@ -7,7 +7,7 @@ $(document).ready(function () {
     var xMark = '<span class="delete"></span>'
 
     /*Gives the user the instructions for this app*/
-    $('#outer-area').prepend('<p class="dashed">Enter your items in the textbox below, then press enter</p>');
+    $('#outer-area').prepend('<p class="dashed">Enter each item in the textbox below, then press enter</p>');
     $('#outer-area').prepend('<p class="dashed">Time to make that grocery list!</p>');
 
     /*Allows an "Enter" keystroke to work as a submit button for input field*/
